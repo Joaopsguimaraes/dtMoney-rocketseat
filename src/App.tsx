@@ -1,5 +1,10 @@
-const App = () => {
-  return <h1>Hello</h1>
-}
+import styled from "styled-components";
 
-export default App;
+const Title = styled.h1`
+  font-size: 2rem;
+  color: #8257e6;
+`
+
+export function App(){
+  return <Title>Hello Word</Title>
+}
